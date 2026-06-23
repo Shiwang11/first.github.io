@@ -10,7 +10,7 @@ function Clock() {
 
     return () => clearInterval(timer);
   }, []);
-
+ 
   return (
     <h1>{time.toLocaleTimeString()}</h1>
   );
