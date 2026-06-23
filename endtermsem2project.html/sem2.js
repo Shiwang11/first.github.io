@@ -85,7 +85,7 @@ const tri=document.querySelector(".triangle");
 const signin=document.querySelector(".hdn-sign");
 
 sign.addEventListener("click",()=>{
-    black.classList.toggle("active-1");
+    black.classList.toggle("active-1"); 
     signin.classList.toggle("active");
     tri.classList.toggle("active");
     document.body.classList.toggle("stop-scroll");
